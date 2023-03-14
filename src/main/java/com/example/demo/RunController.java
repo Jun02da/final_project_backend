@@ -12,7 +12,7 @@ public class RunController {
 	@GetMapping("/apii")
 	public String Ma() {
 
-		return "tesdsdt";
+		return "aaaaa tesdsdt";
 	}
 	@GetMapping("/api")
 	public String Main() {
