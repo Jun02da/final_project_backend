@@ -15,7 +15,7 @@ public class RunController {
 		return "11111111";
 	}
 	
-	@GetMapping("/api")
+	@GetMapping("/apiaaa")
 	public String Main() {
 
 		return "1111111";
