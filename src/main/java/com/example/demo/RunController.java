@@ -9,6 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RunController {
 	
+	@GetMapping("/aaaa")
+	public String AAA() {
+
+		return "1111111";
+	}
+	
 	@GetMapping("/api")
 	public String Main() {
 
@@ -25,6 +31,5 @@ public class RunController {
     @GetMapping("/data")
     public String handleRequest(@RequestParam String input) {
         return input;
-    }
-    
+    }  
 }
