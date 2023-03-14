@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class RunController {
-	
+
 	@GetMapping("/aaaa")
 	public String AAA() {
 
@@ -19,6 +19,15 @@ public class RunController {
 	public String Mainaaaaa() {
 
 		return "1111111";
+	@GetMapping("/apii")
+	public String Ma() {
+
+		return "test";
+	}
+	@GetMapping("/api")
+	public String Main() {
+
+		return "connectddddddaaaaaaaa";
 	}
 	
 	@GetMapping("/list")
