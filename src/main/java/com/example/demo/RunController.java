@@ -11,7 +11,7 @@ public class RunController {
 	
 	@GetMapping("/api")
 	public String Main() {
-		return "connectdd";
+		return "connectddddd";
 	}
 	
 	@GetMapping("/list")
