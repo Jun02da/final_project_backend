@@ -8,7 +8,17 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class RunController {
+
+	@GetMapping("/aaaa")
+	public String AAA() {
+
+		return "11111111";
+	}
 	
+	@GetMapping("/apiaaa")
+	public String Mainaaaaa() {
+
+		return "1111111";
 	@GetMapping("/apii")
 	public String Ma() {
 
@@ -30,6 +40,5 @@ public class RunController {
     @GetMapping("/data")
     public String handleRequest(@RequestParam String input) {
         return input;
-    }
-    
+    }  
 }
