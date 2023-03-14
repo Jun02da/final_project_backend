@@ -11,7 +11,8 @@ public class RunController {
 	
 	@GetMapping("/api")
 	public String Main() {
-		return "connectddddd";
+
+		return "connectddddddaa";
 	}
 	
 	@GetMapping("/list")
@@ -25,4 +26,5 @@ public class RunController {
     public String handleRequest(@RequestParam String input) {
         return input;
     }
+    
 }
