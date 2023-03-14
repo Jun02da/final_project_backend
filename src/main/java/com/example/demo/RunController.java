@@ -19,6 +19,7 @@ public class RunController {
 	public String Mainaaaaa() {
 
 		return "1111111";
+	}
 	@GetMapping("/apii")
 	public String Ma() {
 
