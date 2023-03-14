@@ -25,4 +25,5 @@ public class RunController {
     public String handleRequest(@RequestParam String input) {
         return input;
     }
+    
 }
