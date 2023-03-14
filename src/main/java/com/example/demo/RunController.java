@@ -12,7 +12,7 @@ public class RunController {
 	@GetMapping("/aaaa")
 	public String AAA() {
 
-		return "1111111";
+		return "11111111";
 	}
 	
 	@GetMapping("/api")
