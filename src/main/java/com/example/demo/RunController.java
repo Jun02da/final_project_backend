@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RunController {
 	
+	@GetMapping("/apii")
+	public String Ma() {
+
+		return "test";
+	}
 	@GetMapping("/api")
 	public String Main() {
 
