@@ -9,6 +9,17 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RunController {
 	
+	@GetMapping("/aaaa")
+	public String AAA() {
+
+		return "11111111";
+	}
+	
+	@GetMapping("/apiaaa")
+	public String Mainaaaaa() {
+
+		return "1111111";
+	}
 	
 	@GetMapping("/list")
 	public List<User> listBoard() throws Exception {
